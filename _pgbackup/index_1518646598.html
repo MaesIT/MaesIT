@@ -25,7 +25,7 @@
     <!-- NAVBAR
 ================================================== -->
     <body id="home">
-        <div class="navbar-wrapper">
+        <div class="navbar-wrapper" id="myPage">
             <div class="container">
                 <nav class="navbar navbar-inverse navbar-static-top">
                     <div class="container" style="border-color: #000;
@@ -37,45 +37,18 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="index.html">Oma's Olifant</a>
+                            <a class="navbar-brand" target="_self" href="index.html">Oma's Olifant</a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active">
+                                <!--<li class="active">
                                     <a href="#home">Home</a>
-                                </li>
-                                <li>
+                                </li>-->
+                                <li class="active">
                                     <a href="#about">Onze specialiteiten</a>
                                 </li>
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Advies <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="#">Het hele gamma</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Alles voor meisjes</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Alles voor jongens</a>
-                                        </li>
-                                        <li role="separator" class="divider"></li>
-                                        <li class="dropdown-header">Meisjes</li>
-                                        <li>
-                                            <a href="#">0 tot 6 maanden</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Vanaf 6 maanden</a>
-                                        </li>
-                                        <li role="separator" class="divider"></li>
-                                        <li class="dropdown-header">Jongens</li>
-                                        <li>
-                                            <a href="#">0 tot 6 maanden</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Vanaf 6 maanden</a>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a href="advies.html" target="_self">Advies</a>
                                 </li>
                                 <li>
                                     <a href="folders.html" target="_self">Folders</a>
@@ -94,7 +67,7 @@
         </div>
         <!-- Carousel
     ================================================== -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -118,7 +91,7 @@
                         <div class="carousel-caption">
                             <h1>Zoek je het geschikte speelgoed?</h1>
                             <p>We helpen je graag verder</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Bekijk de advies sectie</a></p>
+                            <p><a class="btn btn-lg btn-primary" href="advies.html" target="_self" role="button">Bekijk de advies sectie</a></p>
                         </div>
                     </div>
                 </div>
@@ -141,19 +114,20 @@
     ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
         <div class="container marketing" id="about">
-            <!-- Three columns of text below the carousel -->
+            <!-- Three columns of text below the carousel -->             
+            <br>
             <div class="row">
                 <div class="col-lg-4">
                     <img class="img-circle" src="assets/Images/Early-Rider-Bonsai-Close.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Early Riders / Steps</h2>
                     <p>De coolste houten kinderfietsen uit het gamma. De beste steps die je kan vinden.</p>
-                    <p><a class="btn btn-default" href="#" role="button">Bekijk op storesquare &raquo;</a></p>
+                    <p><a class="btn btn-default" href="#" role="button">Bekijk op storesquare »</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="img-circle" src="assets/Images/baghera-bentley.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Baghera's</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
                     <p><a class="btn btn-default" href="#" role="button">Bekijk op Storesquare »</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
@@ -164,65 +138,76 @@
                     <p><a class="btn btn-default" href="#" role="button">Bekijk op Storesquare »</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
-            </div>
-            <!-- /.row -->
-            <!-- START THE FEATURETTES -->
-            <hr class="featurette-divider">
+            </div>             
+            <!-- /.row -->             
+            <!-- START THE FEATURETTES -->             
+            <hr class="featurette-divider"> 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                    <h2 class="featurette-heading">Al 30 jaar de réferentie <span class="text-muted">in Hasselt</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive center-block" src="http://pinegrow.com/placeholders/img6.jpg" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive center-block" src="assets/Images/Afbeelding1.png" alt="Generic placeholder image">
                 </div>
-            </div>
-            <hr class="featurette-divider">
+            </div>             
+            <hr class="featurette-divider"> 
             <div class="row featurette">
                 <div class="col-md-7 col-md-push-5">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Enkel kwaliteitsvol speelgoed. <span class="text-muted">Kom zelf kijken</span></h2>
+                    <p class="lead">Duurzaam - Voor elk budget - speelgoed voor het leven</p>
                 </div>
                 <div class="col-md-5 col-md-pull-7">
-                    <img class="featurette-image img-responsive center-block" src="http://pinegrow.com/placeholders/img7.jpg" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive center-block" src="assets/Images/Afbeelding1.png" alt="Generic placeholder image">
                 </div>
-            </div>
-            <hr class="featurette-divider">
+            </div>             
+            <hr class="featurette-divider"> 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Exclusiviteit<font color="#777777"></font></h2>
+                    <p class="lead">Verzamelobjecten - toys for boys - Exclusieve merken</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive center-block" src="http://pinegrow.com/placeholders/img9.jpg" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive center-block" src="assets/Images/Afbeelding1.png" alt="Generic placeholder image">
                 </div>
-            </div>
-            <hr class="featurette-divider">
+            </div>             
+            <hr class="featurette-divider"> 
+            <div class="row featurette">
+                <div class="col-md-7 col-md-push-5">
+                    <h2 class="featurette-heading"> Wij nemen tijd voor elke klant <span class="text-muted"></span></h2>
+                    <p class="lead">In de winkel en nu ook online via onze storesquare webwinkel. Bel ons/mail ons/ chat met ons en we helpen je
+...of spring toch eens binnen voor de gezelligheid</p>
+                </div>
+                <div class="col-md-5 col-md-pull-7">
+                    <img class="featurette-image img-responsive center-block" src="assets/Images/Afbeelding1.png" alt="Generic placeholder image">
+                </div>
+            </div>             
+            <hr class="featurette-divider"> 
             <div class="row featurette" id="lijsten">
                 <div class="col-md-7 col-md-push-5">
                     <h2 class="featurette-heading">Geboorte of klaslijsten <span class="text-muted">Contacteer Oma's olifant voor meer info.</span></h2>
                     <p class="lead">sectie nog toe te voegen</p>
                 </div>
                 <div class="col-md-5 col-md-pull-7">
-                    <img class="featurette-image img-responsive center-block" src="assets/Images/Afbeelding1.jpg" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive center-block" src="assets/Images/baghera-bentley.jpg" alt="Generic placeholder image">
                 </div>
-            </div>
-            <hr class="featurette-divider">
+            </div>             
+            <hr class="featurette-divider"> 
             <div class="row featurette" id="contact">
                 <div class="col-md-7 col-md-push-5">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FOmasOlifant%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=177866172426" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FOmasOlifant%2F&amp;tabs&amp;width=340&amp;height=214&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=177866172426" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
                 </div>
                 <div class="col-md-5 col-md-pull-7">
                     <h2 class="featurette-heading">Onze winkel is open op<span class="text-muted"></span></h2>
                     <p class="lead">openingsuren nog toe te voegen</p>
                 </div>
-            </div>
-            <hr class="featurette-divider">
-            <!-- /END THE FEATURETTES -->
-            <!-- FOOTER -->
+            </div>             
+            <hr class="featurette-divider"> 
+            <!-- /END THE FEATURETTES -->             
+            <!-- FOOTER -->             
             <footer>
-                <p class="pull-right"><a href="#home">Terug naar boven</a></p>
-                <p>&copy; 2018 Pluis, bvba &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <p class="pull-right"><a href="#home" target="_self">Terug naar boven</a></p>
+                <p>© 2018 Pluis, bvba · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
             </footer>
         </div>
         <!-- /.container -->
