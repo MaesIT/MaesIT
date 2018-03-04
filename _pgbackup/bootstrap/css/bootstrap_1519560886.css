@@ -5349,13 +5349,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand > img {
     display: block;
-    background-size: contain;
 }
 
 @media (min-width: 768px) {
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
         margin-left: -15px;
+        background-image: url('file:///Users/DieterMaes/Dropbox/Webdesign/de%20olifant/Maes%20Design/Oma%20Olifant/MaesIT/assets/Images/navbarbrown.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 }
 

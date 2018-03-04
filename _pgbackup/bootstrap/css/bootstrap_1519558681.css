@@ -1447,8 +1447,7 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    /*display: block
- */
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -5349,7 +5348,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand > img {
     display: block;
-    background-size: contain;
 }
 
 @media (min-width: 768px) {
