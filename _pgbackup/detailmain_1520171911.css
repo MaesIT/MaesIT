@@ -71,14 +71,6 @@ body {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (max-width: 767px) {
-    .content {
-        padding-top: 90px;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-}
-
 @media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
