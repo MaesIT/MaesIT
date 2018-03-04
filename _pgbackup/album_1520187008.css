@@ -11,10 +11,6 @@
     z-index: 20;
 }
 
-.content {
-    padding-top: 50px;
-}
-
 .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
