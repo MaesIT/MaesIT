@@ -1,0 +1,16 @@
+body {
+    background: #0000 url(assets/images/Afbeelding1.png) no-repeat fixed 50% 50%;
+}
+
+.container {
+    text-align: center;
+    color: #84754e;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container2 {
+    text-align: center;
+    vertical-align: bottom;
+    color: #84754e;
+    font-family: Verdana, Geneva, sans-serif;
+}
