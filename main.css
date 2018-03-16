@@ -137,6 +137,10 @@ body {
         padding-right: 1%;
     }
 
+    .content .col-xs-6 {
+        z-index: 1;
+    }
+
     .navbar-brand {
         padding-left: 5px;
     }
