@@ -51,15 +51,9 @@ body {
     background-color: #84754e;
 }
 
-.album {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-}
-
 .album-image {
     width: 100%;
-    height: auto;
+    Height: 100%;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
