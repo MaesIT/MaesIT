@@ -54,7 +54,10 @@ body {
 .footer {
     border-top: 2px;
     border-color: brown;
-    background-color: #fdfbee;
+    background-color: white;
+
+    /*#fdfbee;*/
+    bottom: 0;
 }
 
 /* Flip around the padding for proper display in narrow viewports */

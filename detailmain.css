@@ -39,7 +39,7 @@ body {
 .footer {
     border-top: 2px;
     border-color: brown;
-    background-color: #fdfbee;
+    background-color: white; /*#fdfbee;*/
 }
 
 .disclaimer {
