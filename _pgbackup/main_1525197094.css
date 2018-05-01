@@ -11,6 +11,15 @@ body {
     margin: 0;
 }
 
+.topcorner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 25px;
+    margin-top: 10px;
+    z-index: 999;
+}
+
 #logo {
     float: left;
     z-index: 1000;
@@ -45,7 +54,10 @@ body {
 .footer {
     border-top: 2px;
     border-color: brown;
-    background-color: #fdfbee;
+    background-color: white;
+
+    /*#fdfbee;*/
+    bottom: 0;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -66,7 +78,7 @@ body {
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
 .content {
-    padding-top: 135px;
+    padding-top: 110px;
     margin: 0 auto -50px;
     padding-left: 10%;
     padding-right: 5%;
@@ -75,6 +87,13 @@ body {
 .content .col-xs-6 {
     margin-bottom: 20px;
     text-align: center;
+    vertical-align: center;
+    z-index: 21;
+}
+
+.content .col-xs-6 .img {
+    height: 150px;
+    right: 0px;
 }
 
 .content .col-xs-6 {
@@ -119,6 +138,10 @@ body {
         padding-top: 90px;
         padding-left: 1%;
         padding-right: 1%;
+    }
+
+    .content .col-xs-6 {
+        z-index: 1;
     }
 
     .navbar-brand {

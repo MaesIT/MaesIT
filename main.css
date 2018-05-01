@@ -31,7 +31,7 @@ body {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
+/* Special class on .container surrounding .navbar, used for positioning it into place.*/
 .navbar-wrapper {
     padding-top: 50px;
     position: absolute;
