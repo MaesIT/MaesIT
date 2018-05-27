@@ -11,10 +11,6 @@ body {
     margin: 0;
 }
 
-#shoponline {
-    color: gold;
-}
-
 .topcorner {
     position: absolute;
     top: 0;
@@ -43,11 +39,6 @@ body {
     right: 0;
     left: 0;
     z-index: 20;
-}
-
-.MainContent {
-    margin-left: 0%;
-    margin-right: 15%;
 }
 
 .footer,
@@ -101,8 +92,8 @@ body {
 }
 
 .content .col-xs-6 .img {
-    /*  height: 150px;
-    right: 0px;*/
+    height: 150px;
+    right: 0px;
 }
 
 .content .col-xs-6 {
@@ -206,18 +197,13 @@ body {
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 992px) {
     .featurette-heading {
         margin-top: 120px;
     }
+}
 
-    .nav > li > a {
-        font-size: ;
-    }
-
-    .navbar-inverse .navbar-nav > li > a {
-        font-size: 18px;
-    }
+.navbar-inverse .navbar-nav > li > a {
 }
 
 .w3-image .img {

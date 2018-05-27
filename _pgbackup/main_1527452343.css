@@ -45,11 +45,6 @@ body {
     z-index: 20;
 }
 
-.MainContent {
-    margin-left: 0%;
-    margin-right: 15%;
-}
-
 .footer,
 .push {
     height: 50px;
@@ -101,8 +96,8 @@ body {
 }
 
 .content .col-xs-6 .img {
-    /*  height: 150px;
-    right: 0px;*/
+    height: 150px;
+    right: 0px;
 }
 
 .content .col-xs-6 {

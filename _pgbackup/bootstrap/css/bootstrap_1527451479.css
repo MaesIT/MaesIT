@@ -5748,10 +5748,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: #58502e;
 }
 
- {
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus {
     color: white;
     background-color: #54472d;
-    font-size: 18px;
 }
 
 .navbar-inverse .navbar-nav > .disabled > a,
