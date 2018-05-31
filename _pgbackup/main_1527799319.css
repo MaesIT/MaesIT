@@ -11,6 +11,24 @@ body {
     margin: 0;
 }
 
+#shoponline {
+    color: gold;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .topcorner {
     position: absolute;
     top: 0;
@@ -31,7 +49,7 @@ body {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
+/* Special class on .container surrounding .navbar, used for positioning it into place.*/
 .navbar-wrapper {
     padding-top: 50px;
     position: absolute;
@@ -39,6 +57,11 @@ body {
     right: 0;
     left: 0;
     z-index: 20;
+}
+
+.MainContent {
+    margin-left: 0%;
+    margin-right: 15%;
 }
 
 .footer,
@@ -54,7 +77,10 @@ body {
 .footer {
     border-top: 2px;
     border-color: brown;
-    background-color: #fdfbee;
+    background-color: white;
+
+    /*#fdfbee;*/
+    bottom: 0;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -89,8 +115,8 @@ body {
 }
 
 .content .col-xs-6 .img {
-    height: 150px;
-    right: 0px;
+    /*  height: 150px;
+    right: 0px;*/
 }
 
 .content .col-xs-6 {
@@ -135,6 +161,10 @@ body {
         padding-top: 90px;
         padding-left: 1%;
         padding-right: 1%;
+    }
+
+    .content .col-xs-6 {
+        z-index: 1;
     }
 
     .navbar-brand {
@@ -190,13 +220,18 @@ body {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .featurette-heading {
         margin-top: 120px;
     }
-}
 
-.navbar-inverse .navbar-nav > li > a {
+    .nav > li > a {
+        font-size: ;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 18px;
+    }
 }
 
 .w3-image .img {
