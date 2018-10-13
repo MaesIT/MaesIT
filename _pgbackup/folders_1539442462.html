@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Oma's Olifant">
         <meta name="author" content="Dieter Maes">
+        <link rel="icon" href="assets/Images/Afbeelding1.jpg">
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">-->
@@ -25,6 +26,7 @@
     <!-- NAVBAR
 ================================================== -->
     <body id="home">
+        <span class="logo"> <img class="img-circle img-responsive visible-md visible-lg hidden-xs hidden-sm" src="assets/Images/Afbeelding1.jpg" alt="Omas Olifant" title="Home" id="logo"> </span>
         <div class="navbar-wrapper" id="myPage">
             <div class="container1">
                 <nav class="navbar navbar-inverse navbar-static-top">
@@ -41,7 +43,7 @@
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li class="active">
-                                    <a href="advies.html">Advies & Inspiratie</a>
+                                    <a href="advies.html" target="_self">Advies & Inspiratie</a>
                                 </li>
                                 <!--   <li class="active">
                                     <a href="#about">Bestsellers & Nieuw</a>
@@ -53,13 +55,16 @@
                                     <a href="folders.html" target="_self">Folders</a>
                                 </li>
                                 <li>
-                                    <a href="#lijsten" target="_self">Lijsten</a>
+                                    <a href="lijsten.html" target="_self">Lijsten</a>
                                 </li>
                                 <li>
                                     <a href="contact.html" target="_self">Contact</a>
                                 </li>
                                 <li class="active">
-                                    <a href="https://live.tourdash.com/embed/c911e491f7e74cb9954ea6a03ace8757?pano=CAoSLEFGMVFpcFBLVks2TGtldEp2b256T2hHQmplWTdKZGhqVkpjdUZrWmNBQjFv&head=166.74642203450534&pitch=8.47092183350722&zoom=-3.3306690738754696e-16" target="_blank">Virtuele tour</a>
+                                    <a href="https://live.tourdash.com/embed/a31faf6c0e734d9ab1516e9a7a6ea996?pano=CAoSLEFGMVFpcE1XYVhtVW5nUElFbUkyVHZFUS1QNzAwdURsWW1hSzJnUVoyQzU4&head=-123.60013653604808&pitch=5.09802302970121&zoom=-0.49839324577432365" target="_blank" class="hidden-sm">Virtuele tour</a>
+                                </li>
+                                <li class="active">
+                                    <a href="https://storesquare.be/winkel/omas-olifant" target="_blank">Online-Shop</a>
                                 </li>
                             </ul>
                         </div>
@@ -67,14 +72,35 @@
                 </nav>
             </div>
         </div>
-        <div class="container">
+        <div class="content-folder">
             <!-- START THE FEATURETTES -->
+            <div class="row featurette">
+                <div>
+                    <h2 class="featurette-heading">Oma's olifant Speelgoed folder <span class="text-muted">2018</span></h2>
+                    <p class="lead"></p>
+                    <p>Download de folder hier <a href="Speelvogel_NJ_18_WEB.pdf"></a></p>
+                    <object data="folders/Speelvogel_NJ_18_WEB.pdf" type="application/pdf" width="100%" height="600px">
+                        <p>Speelvogel 2018 <a href="Speelvogel_NJ_18_WEB.pdf">to the PDF!</a></p>
+                    </object>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div>
+                    <h2 class="featurette-heading">Kat&Koe speelgoed folder <span class="text-muted">2018</span></h2>
+                    <p class="lead"></p>
+                    <object data="folders/Kat&Koe_KR_NJ_18_WEB.pdf" type="application/pdf" width="100%" height="600px">
+                        <p>Kat en koe 2018 <a href="Kat&Koe_KR_NJ_18_WEB.pdf">to the PDF!</a></p>
+                    </object>
+                </div>
+            </div>
+            <hr class="featurette-divider">
             <div class="row featurette">
                 <div class id="Algemeen">
                     <h2 class="featurette-heading">Oma's olifant Speelgoed folder <span class="text-muted">2017 - 2018</span></h2>
                     <p class="lead"></p>
                     <object data="folders/folder-speeldgoed-2017-2018.pdf" type="application/pdf" width="100%" height="600px">
-                        <p>Alternative text - include a link <a href="folder-speeldgoed-2017-2018.pdf">to the PDF!</a></p>
+                        <p>Speelgoed folder 2017 - 2018 <a href="folder-speeldgoed-2017-2018.pdf">to the PDF!</a></p>
                     </object>
                 </div>
             </div>
@@ -124,6 +150,23 @@ $(document).ready(function(){
     });
   });
 })
+</script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117332732-1"></script>
+        <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117332732-1');
+</script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120502823-1"></script>
+        <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-120502823-1');
 </script>
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="assets/js/jquery.min.js"></script>
