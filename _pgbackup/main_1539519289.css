@@ -11,6 +11,29 @@ body {
     margin: 0;
 }
 
+#shoponline {
+    color: gold;
+}
+
+#folderimage {
+    padding-top: 80px;
+    left: -100px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .topcorner {
     position: absolute;
     top: 0;
@@ -29,14 +52,9 @@ body {
     position: absolute;
 }
 
-.btn btn-default {
-    background-color: #54472d;
-    color: #ffffff;
-}
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-/* Special class on .container surrounding .navbar, used for positioning it into place. #54472d*/
+/* Special class on .container surrounding .navbar, used for positioning it into place.*/
 .navbar-wrapper {
     padding-top: 50px;
     position: absolute;
@@ -44,6 +62,11 @@ body {
     right: 0;
     left: 0;
     z-index: 20;
+}
+
+.MainContent {
+    margin-left: 0%;
+    margin-right: 15%;
 }
 
 .footer,
@@ -97,8 +120,8 @@ body {
 }
 
 .content .col-xs-6 .img {
-    height: 150px;
-    right: 0px;
+    /*  height: 150px;
+    right: 0px;*/
 }
 
 .content .col-xs-6 {
@@ -202,13 +225,18 @@ body {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .featurette-heading {
         margin-top: 120px;
     }
-}
 
-.navbar-inverse .navbar-nav > li > a {
+    .nav > li > a {
+        font-size: ;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 18px;
+    }
 }
 
 .w3-image .img {
