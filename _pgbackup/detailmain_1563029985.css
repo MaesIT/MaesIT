@@ -217,13 +217,10 @@ body {
     text-align: center;
 }
 
-.centerimage {
+.center {
     width: 100%; /* or any custom size */
     height: 100%;
     object-fit: contain;
-}
-
-.center {
 }
 
 .center:hover .overlay_folder {

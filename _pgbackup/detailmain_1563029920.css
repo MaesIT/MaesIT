@@ -217,12 +217,6 @@ body {
     text-align: center;
 }
 
-.centerimage {
-    width: 100%; /* or any custom size */
-    height: 100%;
-    object-fit: contain;
-}
-
 .center {
 }
 
