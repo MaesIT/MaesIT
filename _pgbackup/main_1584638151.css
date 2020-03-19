@@ -15,10 +15,18 @@ body {
     color: gold;
 }
 
+#shoponline2 {
+    color: gold;
+}
+
+#folderimage {
+    padding-top: 80px;
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
-    width: 33.33%;
+    width: 100%;
     padding: 5px;
 }
 
