@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Oma's Olifant">
         <meta name="author" content="Dieter Maes">
+        <link rel="icon" href="assets/Images/Afbeelding1.jpg">
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">-->
@@ -25,6 +26,7 @@
     <!-- NAVBAR
 ================================================== -->
     <body id="home">
+        <span class="logo"> <img class="img-circle img-responsive visible-md visible-lg hidden-xs hidden-sm" src="assets/Images/Afbeelding1.jpg" alt="Omas Olifant" title="Home" id="logo"> </span>
         <div class="navbar-wrapper" id="myPage">
             <div class="container1">
                 <nav class="navbar navbar-inverse navbar-static-top">
@@ -41,7 +43,7 @@
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li class="active">
-                                    <a href="advies.html">Advies & Inspiratie</a>
+                                    <a href="advies.html" target="_self">Advies & Inspiratie</a>
                                 </li>
                                 <li>
                                     <a href="bestsellers-nieuwigheden.html" target="_self">Bestsellers & Nieuwigheden</a>
@@ -50,13 +52,16 @@
                                     <a href="folders.html" target="_self">Folders</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_self">Lijsten</a>
+                                    <a href="lijsten.html" target="_self">Lijsten</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html" target="_self">Contact</a>
+                                    <a href="#" target="_self">Contact</a>
                                 </li>
                                 <li class="active">
-                                    <a href="https://live.tourdash.com/embed/c911e491f7e74cb9954ea6a03ace8757?pano=CAoSLEFGMVFpcFBLVks2TGtldEp2b256T2hHQmplWTdKZGhqVkpjdUZrWmNBQjFv&head=166.74642203450534&pitch=8.47092183350722&zoom=-3.3306690738754696e-16" target="_blank">Virtuele tour</a>
+                                    <a href="https://live.tourdash.com/embed/a31faf6c0e734d9ab1516e9a7a6ea996?pano=CAoSLEFGMVFpcE1XYVhtVW5nUElFbUkyVHZFUS1QNzAwdURsWW1hSzJnUVoyQzU4&head=-123.60013653604808&pitch=5.09802302970121&zoom=-0.49839324577432365" target="_blank" class="hidden-sm">Virtuele tour</a>
+                                </li>
+                                <li class="active">
+                                    <a href="https://www.omasolifantonline.be" target="_blank">Online-Shop</a>
                                 </li>
                             </ul>
                         </div>
@@ -72,11 +77,21 @@
             <div class="row featurette">
                 <div class="col-md-7 col-md-push-5">
                     <h2 class="featurette-heading"><span class="text-muted"></span></h2>
-                    <p class="lead"><b>Openingsuren & Contact:</b></p>
+                    <p class="lead"><b>Openingsuren:</b></p>
+                    <p class="lead">Maandag namiddag - 13:00 tot 18:00</p>
+                    <p class="lead">Dinsdag t.e.m. Zaterdag - 10:00 tot 18:00</p>
+                    <p class="lead">Zondag gesloten*</p>
+                    <p class="lead">*Iedere eerste zondag van de maand -&nbsp; 14:00 tot 18:00</p>
+                    <p class="lead">Extra openingsuren:</p>
                     <p class="lead">
-                    Maandag tot Zaterdag - 10:00 tot 18:00 </p>
+                        -	Zondag 4 december: 13.00u - 17.00u<br/>
+						-	Zondag 11 december: 13.00u - 17.00u<br/>
+						-	Zondag 18 december: 13.00u - 17.00u<br/> </p>
+                    <p class="lead"><b>Contact:</b></p>
+                    <p class="lead">
+                    Bereik ons via telefoon: 011 23 12 43 </p>
                     <p class="lead"> 
-                    Zondag gesloten</p>
+                    Of stuur ons een mailtje: <a href="mailto:omasolifant@telenet.be">omasolifant@telenet.be</a></p>
                 </div>
                 <div class="col-md-5 col-md-pull-7">
                     <img class="featurette-image img-responsive center-block" src="assets/Images/Afbeelding1.png" alt="Generic placeholder image">
@@ -116,7 +131,10 @@
         <!-- FOOTER -->         
         <footer class="footer">
             <!--<a href="#home" target="_self">Terug naar boven</a>-->
-            <!--  <p>© 2018 Pluis BVBA Aldestraat 24, 3500 Hasselt, BE 0466.799.731 </p> <a href="#">Privacy</a> · <a href="#">Terms</a>-->
+            <div class="disclaimer">
+                <p>© 2019 Ooms Consultancy & Projects, Hogebilk 14 8470 Gistel, BE 0466.799.731 </p> 
+                <a href="assets/Documents/privacyverklaringOmasOlifant.pdf">Privacy & Terms</a>
+            </div>
         </footer>
         <!-- Bootstrap core JavaScript
     ================================================== -->         
@@ -156,6 +174,23 @@ $(document).ready(function(){
   });
 })
 </script>         
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117332732-1"></script>
+        <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117332732-1');
+</script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120502823-1"></script>
+        <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-120502823-1');
+</script>
         <!-- Placed at the end of the document so the pages load faster -->         
         <script src="assets/js/jquery.min.js"></script>         
         <script src="bootstrap/js/bootstrap.min.js"></script>         
